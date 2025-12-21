@@ -42,7 +42,7 @@ Comparison of the time-dependent decay rate $\gamma_1(t)$.
 > **Title:** Dissipative preparation of tripartite singlet state in coupled arrays of cavities via quantum feedback control
 > **Authors:** Xiao-Qiang Shao, Z. H. Wang, Hao-Di Liu, X. X. Yi*
 > **Reference:** *Phys. Rev. A* 94, 032307 (2016)
-
+》**introduction:** The primary goal of this paper is to prepare a specific tripartite entangled state, known as the tripartite singlet state, in a robust and deterministic manner.
 I simulated the quantum feedback master equation to prepare the tripartite singlet state $|S_3\rangle$, investigating robustness against detection inefficiency ($\eta$).
 
 ### 📊 1. Robustness against Detection Efficiency
@@ -75,5 +75,4 @@ Comparison of fidelity evolution under Non-local vs. Local feedback.
 
 ## 🧑‍💻 Author
 *   **Name:** [noname9612[
-*   **Institution:** Changchun Normal University
 *   **Note:** This project is for educational purposes and internship application.
