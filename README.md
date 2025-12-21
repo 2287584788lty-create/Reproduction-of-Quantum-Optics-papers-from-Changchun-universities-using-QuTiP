@@ -20,17 +20,17 @@ Comparison of the amplitude $|\mathcal{U}(t)|$ evolution.
 
 | **Exact Model (CRW)** | **Markovian Approx. (RWA)** |
 |:---:|:---:|
-| <img src="fig2_exact.png" width="400" alt="Fig2 Exact"/> | <img src="fig2_rwa.png" width="400" alt="Fig2 RWA"/> |
+| <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/1/fig2_exact.png" width="400" alt="Fig2 Exact"/> | <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/1/fig2_rwa.png" width="400" alt="Fig2 RWA"/> |
 | *Reproduction of Fig. 2(a)* | *Simulation under RWA* |
 
-> **Observation:** The exact model (Left) shows **population trapping** and gain ($>1$), while the RWA (Right) falsely predicts a monotonic decay to zero.
+> **Observation:** The exact model (Left) shows **population trapping** and gain ($>1$), verifying the formation of bound states. The RWA (Right) falsely predicts a monotonic decay to zero.
 
 ### 📉 2. Decay Rate Analysis (Figure 3)
 Comparison of the time-dependent decay rate $\gamma_1(t)$.
 
 | **Exact Model (CRW)** | **Markovian Approx. (RWA)** |
 |:---:|:---:|
-| <img src="fig3_exact.png" width="400" alt="Fig3 Exact"/> | <img src="fig3_rwa.png" width="400" alt="Fig3 RWA"/> |
+| <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/1/fig3_exact.png" width="400" alt="Fig3 Exact"/> | <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/1/fig3_rwa.png" width="400" alt="Fig3 RWA"/> |
 | *Reproduction of Fig. 3(a)* | *Simulation under RWA* |
 
 > **Observation:** The exact decay rate oscillates and becomes **negative** (Left), indicating information backflow. The RWA prediction (Right) remains positive and constant.
@@ -46,10 +46,10 @@ Comparison of the time-dependent decay rate $\gamma_1(t)$.
 I simulated the quantum feedback master equation to prepare the tripartite singlet state $|S_3\rangle$, investigating robustness against detection inefficiency ($\eta$).
 
 ### 📊 1. Robustness against Detection Efficiency
-Comparison of fidelity evolution under Non-local vs. Local feedback at different efficiencies.
+Comparison of fidelity evolution under Non-local vs. Local feedback.
 
 <div align="center">
-  <img src="paper2_grid.png" width="800" alt="Fidelity Grid"/>
+  <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/2/paper2_grid.png" width="800" alt="Fidelity Grid"/>
   <br>
   <em>Fig: Fidelity evolution for Non-local (Top) and Local (Bottom) feedback with $\eta=1.0$ (Left) and $\eta=0.5$ (Right).</em>
 </div>
@@ -58,7 +58,7 @@ Comparison of fidelity evolution under Non-local vs. Local feedback at different
 
 ### 📉 2. Strategy Comparison
 <div align="center">
-  <img src="paper2_compare.png" width="600" alt="Strategy Comparison"/>
+  <img src="https://raw.githubusercontent.com/2287584788lty-create/Reproduction-of-Quantum-Optics-papers-from-Changchun-universities-using-QuTiP/main/Quantum_Reproduction/2/paper2_compare.png" width="600" alt="Strategy Comparison"/>
   <br>
   <em>Fig: Effective Non-local vs. Local Feedback.</em>
 </div>
@@ -68,9 +68,10 @@ Comparison of fidelity evolution under Non-local vs. Local feedback at different
 ---
 
 ## 🛠️ Environment & Dependencies
-*   **Python**: 3.12
+*   **Python**: 3.12.9
 *   **QuTiP**: 5.2.2
-*   **SciPy** (for exact `solve_ivp` integration)
+*   **SciPy** ：1.16.3
+
 
 ## 🧑‍💻 Author
 *   **Name:** [noname9612[
